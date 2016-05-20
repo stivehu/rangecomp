@@ -1,0 +1,21 @@
+{
+    "name": "stivehu/yii2-rangecomp",
+    "description": "A strictly increasing sequence arrays compressing tool. For example: {1,2,3,4,5}=>{\"1-5\"}",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"," sequence"," compress"," decompress","big"],
+    "license": "GPL-3.0+",
+    "authors": [
+        {
+            "name": "Gábor István",
+            "email": "stive.hu@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "stivehu\\rangecomp\\": ""
+        }
+    }
+}

@@ -32,12 +32,10 @@ Once the extension is installed, simply use it in your code by  :
 <?= \stivehu\rangecomp\Rangecomp::rangeCompress([1,2,4,5,6,7,8,9,10"]); ?>```
 
 js version:
-```
-php
+```php
 <?php \rangecomp\Rangecomp::rangeDeCompress(Json::decode($this->getBigCookie($this->cookieName))) ?>
 ```
-```
-js
+```js
 rangeDeCompress([1,2,3,"4-10"]);
 rangeCompress([ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]);
 ```

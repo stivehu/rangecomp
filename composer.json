@@ -1,0 +1,24 @@
+{
+    "name": "stivehu/rangecomp",
+    "description": "A strictly increasing sequence arrays compressing tool. For example: {1,2,3,4,5}=>{\"1-5\"}",
+    "type": "extension",
+    "keywords": ["extension"," sequence"," compress"," decompress","big"],
+    "license": "GPL-3.0+",
+    "authors": [
+        {
+            "name": "Gábor István",
+            "email": "stive.hu@gmail.com"
+        }
+    ],
+    "require": {
+    },
+        "require-dev": {
+        "codeception/codeception": "^2.2",
+        "codeception/specify": "^0.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "stivehu\\rangecomp\\": "src/"
+        }
+    }
+}

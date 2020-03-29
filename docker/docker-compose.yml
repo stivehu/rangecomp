@@ -1,0 +1,17 @@
+version: '3'
+services:
+  web:
+    build:
+      context: php
+    ports:
+      - 80:80
+    volumes:
+      - ..:/var/www/html
+      - ./apache/conf/000-default.conf:/etc/apache2/sites-enabled/000-default.conf
+      - ./apache/php/php.ini:/usr/local/etc/php/php.ini
+
+    environment:
+      - APACHE_DOCUMENT_ROOT=/var/www/html/public
+    env_file:
+      - .env
+    restart: always

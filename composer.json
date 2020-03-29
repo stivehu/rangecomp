@@ -2,7 +2,7 @@
     "name": "stivehu/rangecomp",
     "description": "A strictly increasing sequence arrays compressing tool. For example: {1,2,3,4,5}=>{\"1-5\"}",
     "type": "extension",
-    "keywords": ["yii2","extension"," sequence"," compress"," decompress","big"],
+    "keywords": ["extension"," sequence"," compress"," decompress","big"],
     "license": "GPL-3.0+",
     "authors": [
         {
